@@ -11,7 +11,7 @@ export default {
         {
           date: 'April 2019 – present',
           header:
-            'IMEDAC GmbH - Institute for Medical Data Management and Consulting',
+            'IMEDAC GmbH - Institute for Medical Data Management and Consulting - Subsidiary of Labor Krone',
           description: 'Software developer',
         },
         {

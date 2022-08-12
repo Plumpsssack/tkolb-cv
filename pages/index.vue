@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-neutral h-screen pt-20">
+  <div class="h-screen pt-20">
     <div class="mx-auto px-20">
       <div class="grid grid-cols-3 gap-5">
         <profile-img></profile-img>
@@ -40,6 +40,9 @@ export default {}
   }
   h3 {
     @apply font-medium;
+  }
+  body {
+    @apply bg-neutral;
   }
 }
 </style>

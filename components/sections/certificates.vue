@@ -1,5 +1,5 @@
 <template>
-  <section-main title="Qualifications">
+  <section-main title="Certificates">
     <sections-certificates-certificate
       v-for="(certificate, index) of certificates"
       :key="'certificate' + index"
@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       certificates: [
-        'Projectmanagement	basic certificate (GPM)',
+        'Project Management	Basic Certificate (GPM)',
         'Vue JS 2 Udemy Course - Certificate of Completion',
         'Nuxt.js Udemy Course - Certificate of Completion',
       ],

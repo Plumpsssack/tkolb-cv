@@ -8,8 +8,8 @@
       <h3>
         {{ project.title }}
       </h3>
-
-      <div class="text-sm">{{ project.technology }}</div>
+      <div class="text-sm">{{ project.description }}</div>
+      <div class="text-sm italic">{{ project.technology }}</div>
     </div>
   </section-main>
 </template>
@@ -20,33 +20,39 @@ export default {
     return {
       projects: [
         {
-          title: 'Covid School Test Registration Software',
-          technology: 'Nuxt | Vue',
+          title: 'Registration Web Platform for Covid Tests',
+          description: 'Design, development and testing of the frontend',
+          technology: 'Nuxt / Vue',
         },
         {
           title: 'E-Learning Web Application',
-          technology: 'Nuxt | Vue, Php, MySQL, Next Cloud',
+          description: 'Concept, design, fullstack development, testing',
+          technology: 'Nuxt / Vue, PHP, MySQL, Next Cloud',
         },
         {
           title: 'Intranet Web Application',
-          technology: 'Nuxt | Vue, Php, MySQL',
+          description: 'Concept, design, fullstack development, testing',
+          technology: 'Nuxt / Vue, PHP, MySQL',
         },
         {
-          title: 'Network Management Software',
+          title: 'Network Management Web Software',
+          description: 'Design, fullstack development, testing',
           technology: 'C#, Javascript, Neo4j, ASP.NET, Sharepoint, SQL Server',
         },
         {
-          title: 'Inventory Management',
+          title: 'Inventory Management Web / Mobile Platform',
+          description: 'Design, fullstack development, testing',
           technology: 'C#, Xamarin, ASP.NET, MySQL',
         },
         {
-          title: 'Renewal Datapoint - Application',
+          title: 'Energy Management - Web Application',
+          description: 'Design, fullstack development, testing',
           technology: 'C#, ASP.NET, JavaScript, SQL Server',
         },
-
         {
-          title: 'Renewal Lab Information System',
-          technology: 'C#, ASP.NET, Angular',
+          title: 'Web Lab Information System',
+          technology: 'C#, ASP.NET, Angular, SQL Server',
+          description: 'Design, fullstack development, testing',
         },
       ],
     }
